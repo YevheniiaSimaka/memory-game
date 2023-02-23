@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="level3.css">
+</head>
+
+<body>
+
+    <div class="levels">
+        <a class="levels-btn"><i class="fa-solid fa-bars"></i></a>
+    </div>
+
+    <div class="all-levels">
+        <div class="box">
+            <div class="exit"><i class="fa-solid fa-x"></i></div>
+            <h2>Levels</h2>
+            <div class="levels-grid">
+                <a href="/index.html">
+                    <div class="level">1</div>
+                </a>
+                <a href="/level2/level2.html">
+                    <div class="level">2</div>
+                </a>
+                <a href="/level3/level3.html">
+                    <div class="level current">3</div>
+                </a>
+                <a href="level2/level4.html">
+                    <div class="level">4</div>
+                </a>
+                <a href="level2/level5.html">
+                    <div class="level">5</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+
+        <h1>Score: <a id="score">0</a><br> Moves: <a id="moves">15</a></h1>
+
+        <div id="grid"></div>
+
+        <a href="level2.html" class="again">Level 4 &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/f92c750d9a.js" crossorigin="anonymous"></script>
+    <script src="level3.js"></script>
+</body>
+
+</html>
